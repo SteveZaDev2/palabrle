@@ -14,6 +14,14 @@ let protoWordsArray = [
     numOfItems: 0,
     items: ["ABUELO", "ACCESO", "ACTIVO", "ADORNO", "AGENTE", "ALGUNO", "ALPACA", "ARROYO", "AUNQUE", "AZALEA", "BARRIO", "BISTRE", "BLANCO"],
     def: ["GRANDMOTHER", "ACCESO", "ACTIVO", "ADORNO", "AGENTE", "ALGUNO", "ALPACA", "ARROYO", "AUNQUE", "AZALEA", "BARRIO", "BISTRE", "BLANCO"]
+    },
+    {
+    cat: "test",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: ["ADIÓS", "ÍÍÍÁÁÁÁÁ"],
+    def: ["GOODBYE", "?????", "?"]
     } ]
 
 const backgroundImagesPortrait=[
@@ -1819,7 +1827,7 @@ function loadLocalStorage(){
   definition =window.localStorage.getItem("definition");
   if (kContainer){
     calcLettersandGuesses();
-    messageContainerEl.innerText = "Last Wordlength game was interrupted - continue at point it was lost";
+    messageContainerEl.innerText = "Last Palabrle game was interrupted - continue at point it was lost";
     atLeastOneGuessMade = true;
     setTimeout(function(){
   }, 4500);
