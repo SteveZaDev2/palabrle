@@ -4,8 +4,8 @@ let protoWordsArray = [
     sel: true,
     parent: "",
     numOfItems: 0,
-    items: ["NIÑOS", "ABAJO", "ABRIR", "ACEDO", "ACEÑA", "ADIÓS", "ADOBE", "AGORA", "AHORA", "AMBOS"],
-    def: ["BOYS", "DOWN", "TO OPEN", "SOUR TART", "WATER WHEEL", "GOODBYE", "ADOBE", "MARKETPLACE", "NOW", "BOTH"]
+    items: ["NIÑOS", "ABAJO", "ABRIR", "ACEDO", "ACEÑA", "ADIÓS", "ADOBE", "AGORA", "AHORA", "AMBOS", "AMENO", "AMIGA", "AMIGO", "ANANÁ", "ANDAR", "ANTES", "APURO", "ARAÑA", "ÁRBOL", "ARENA", "ARETE", "ARFIL", "ARIDO", "ARROZ", "ASADO", "ATRÁS", "ATROZ", "ÁUREO", "AVENA", "AVISO", "AYOTE"],
+    def: ["BOYS", "DOWN", "TO OPEN", "SOUR TART", "WATER WHEEL", "GOODBYE", "ADOBE", "MARKETPLACE", "NOW", "BOTH", "PLEASANT", "FRIEND (FEMALE)", "FRIEND (MALE)", "PINEAPPLE", "TO WALK", "BEFORE", "DIFFICULTY", "SPIDER", "TREE", "ARENA", "EARRING", "BISHOP (CHESS PIECE)", "ARID", "RICE", "ROAST", "BEHIND", "ATROCIOUS", "GOLD", "OATMEAL", "WARNING", "PUMPKIN"]
     },
     {
     cat: "6-Letter Words",
