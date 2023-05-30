@@ -2,10 +2,10 @@ let protoWordsArray = [
   { 
     cat: "5-Letter Words",
     sel: true,
-    parent: "",
+    parent: "",  /* Á   É    Í  Ó   Ú   Ñ */
     numOfItems: 0,
-    items: ["NIÑOS", "ABAJO", "ABRIR", "ACEDO", "ACEÑA", "ADIÓS", "ADOBE", "AGORA", "AHORA", "AMBOS", "AMENO", "AMIGA", "AMIGO", "ANANÁ", "ANDAR", "ANTES", "APURO", "ARAÑA", "ÁRBOL", "ARENA", "ARETE", "ARFIL", "ARIDO", "ARROZ", "ASADO", "ATRÁS", "ATROZ", "ÁUREO", "AVENA", "AVISO", "AYOTE"],
-    def: ["BOYS", "DOWN", "TO OPEN", "SOUR TART", "WATER WHEEL", "GOODBYE", "ADOBE", "MARKETPLACE", "NOW", "BOTH", "PLEASANT", "FRIEND (FEMALE)", "FRIEND (MALE)", "PINEAPPLE", "TO WALK", "BEFORE", "DIFFICULTY", "SPIDER", "TREE", "ARENA", "EARRING", "BISHOP (CHESS PIECE)", "ARID", "RICE", "ROAST", "BEHIND", "ATROCIOUS", "GOLD", "OATMEAL", "WARNING", "PUMPKIN"]
+    items: ["ABABA", "ABACÁ", "ÁBACO", "ABAJO", "ABANO", "ABAYA", "ABECÉ", "ABEJA", "ABETO", "ABONO", "ABRIL", "ABRIR", "ÁBSIT", "ABUSO", "ÁCANA", "ÁCARO", "ACASO", "ACEBO", "ACEDO", "ACEÑA", "ACENO", "ACERA", "ACERO", "ÁCERO", "ÁCIDO", "ACOSO", "ACTOR", "ADIÓS", "ADIVE", "ADOBE", "AERAR", "AÉREO", "AFEAR", "ÁFIDO", "AFIJO", "ÁGAPE", "ÁGATE", "AGORA", "ÁGORA", "AGRAZ", "AGRIO", "AGUAR", "AGUAS", "AGUDO", "AGUJA", "AHÍTO", "AHOGO", "AHORA", "AIRAR", "AIRES", "AJADO", "AJENO", "AJUAR", "ALADO", "ALAJÚ", "ÁLAMO", "ALANO", "ÁLBUM", "ALBUR", "ALDEA", "ALEAR", "ALERO", "ALETA", "ALFIL", "ALGAR", "ALIAR", "ALIAS", "ALIÑO", "ALISO", "ALMEZ", "ALTAR", "ALZAR", "AMATE", "ÁMBAR", "AMBOS", "AMEBA", "AMENO", "AMIGA", "AMIGO", "AMINA", "AMINO", "ÁNADE", "ANANÁ", "ANCHO", "ANCLA", "ANDAR", "ANDÉN", "ANEJO", "AÑEJO", "ANEXO", "ÁNGEL", "ÁNIMA", "ÁNIMO", "AÑITO", "ÁNODO", "ÁNSAR", "ANSIA", "ANTES", "ANTRO", "ANUAL", "AORTA", "APEAR", "APEGO", "APERO", "ÁPICE", "APODO", "APOYO", "APURO", "AQUEL", "AQUÉL", "ARADO", "ARAÑA", "ÁRBOL", "ARCÉN", "ARDER", "ARDID", "ARDOR", "ARDUO", "ARENA", "AREPA", "ARETE", "ARFIL", "ARGÓN", "ARGOT", "ÁRIDO", "ARILO", "ARMAR", "ARNÉS", "AROMA", "ARPÍA", "ARPÓN", "ARREA", "ARROZ", "ASADO", "ASCUA", "ASEAR", "ASILO", "ASNAL", "ÁSPID", "ASPRO", "ÁSTER", "ASTIL", "ASTRO", "ATADO", "ATAJO", "ATAÚD", "ÁTICO", "ATLAS", "ATOLE", "ÁTAMO", "ÁTONO", "ATRÁS", "ATROZ", "AUDAZ", "AUDIO", "AUNAR", "AUPAR", "ÁUERO", "AUTOR", "AVARA", "AVARO", "AVENA", "AVIAR", "ÁVIDO", "AVIÓN", "AVISO", "AXILA", "AYATE", "AYOTE", "AYUDA", "AYUNO", "AYUSO", "AZADA", "AZOTE"],
+    def: ["RED POPPY", "ABACA", "ABACUS", "DOWN", "CEILING FAN", "ABAYA", "PRIMER", "BEE", "FIR", "FERTILIZER", "YEARS OF AGE", "TO OPEN OPENING", "GO AWAY!", "ABUSE", "ACANA TREE", "MITE", "PERHAPS", "HOLLY", "SOUR", "WATER MILL", "ACENE", "PAVEMENT SIDEWALK", "STEEL", "HORNLESS", "ACIDIC", "HARASSMENT", "ACTOR", "GOODBYE", "JACKAL", "ADOBE", "TO AIR", "AERIAL", "TO MAKE UGLY", "APHID", "AFFIX", "SPIRITUAL LOVE", "AGATE", "NOW", "AGORA", "UNPLEASANT", "SOUR", "TO WATER", "BE CAREFUL!", "SHARP WITTY", "HAND OF A CLOCK", "SATIATED", "ANGUISH", "NOW", "TO ANGER", "AIRS", "FRAYED", "DISTANT ALIEN", "DOWRY", "WINGED", "SWEET ALMOND PASTE", "WHITE POPLAR", "MASTIFF", "ALBUM", "BLEAK FISH", "VILLAGE", "TO ALLOY", "EAVE", "PROPELLER BLADE", "BISHOP", "CAVE GROTTO", "TO ALLY", "ALIAS", "SPICE", "ALDER TREE", "TREE SHRUB", "ALTAR", "TO REVOLT", "AMATE ART FORM", "AMBER", "BOTH", "AMOEBA", "PLEASANT", "FRIEND", "FRIEND", "AMINE", "AMINO", "DUCK", "PINEAPPLE", "PROUD", "ANCHOR", "TO WALK", "PLATFORM SIDEWALK", "ATTACHED", "AGED (FOOD)", "ATTACHED", "ANGEL", "SOUL", "COURAGE!", "YEAR", "ANODE", "WILD GOOSE", "ANXIETY", "BEFORE", "UNTIDY LOCATION", "ANNUAL", "AORTA", "TO REMOVE", "FONDNESS", "TOOL", "APEX", "NICKNAME", "SUPPORT", "DIFFICULTY", "THAT (OVER THERE)", "ANYONE/ANYTHING", "PLOUGH", "SPIDER", "TREE", "EDGE", "TO BURN", "BRAVE", "ARDOUR", "ARDUOUS", "ARENA", "PANCAKE", "EARRING", "BISHOP (CHESS PIECE)", "ARGON", "SLANG", "ARID", "ARIL", "TO PROVOKE", "HARNESS", "AROMA", "HARPY", "HARPOON", "GET MOVING!", "RICE", "BROILED", "EMBER", "TO WASH", "ASYLUM", "BRUTISH", "ASP", "TURKISH CURRENCY", "ASTER", "ARROW SHAFT", "CELESTIAL BODY", "BIASED", "SHORTCUT", "COFFIN", "ATTIC", "ATLAS", "ATOLE", "ATOM", "ATONIC", "BACK IN TIME", "ATROCIOUS", "BOLD", "AUDIO", "TO UNITE", "TO LIFT", "GOLD", "AUTOR", "MISER", "AVARICIOUS", "OAT", "AVIAN", "ANXIOUS", "PLANE", "ANNOUNCEMENT", "ARMPIT", "CLOAK", "PUMPKIN", "HELP", "FASTING", "DOWN", "HOE", "SCOURGE"] 
     },
     {
     cat: "6-Letter Words",
@@ -15,6 +15,22 @@ let protoWordsArray = [
     items: ["ABUELO", "ACCESO", "ACTIVO", "ADORNO", "AGENTE", "ALGUNO", "ALPACA", "ARROYO", "AUNQUE", "AZALEA", "BARRIO", "BISTRE", "BLANCO"],
     def: ["GRANDMOTHER", "ACCESO", "ACTIVO", "ADORNO", "AGENTE", "ALGUNO", "ALPACA", "ARROYO", "AUNQUE", "AZALEA", "BARRIO", "BISTRE", "BLANCO"]
     },
+    {
+      cat: "7-Letter Words",
+      sel: false,
+      parent: "",
+      numOfItems: 0,
+      items: ["ABACERO", "ABARRAR", "ABASTAR", "ABIERTO", "ABOGADA", "ABOGADO", "ABRASAR", "ABRUPTO", "ACEBIBE", "ACEPTAR", "ACIERTO", "ACLAMAR", "ACORDAR", "ACUARIO", "ACUERDO", "ADENTRO", "ADOPTAR", "ADOSADA"],
+      def: ["GROCER", "TO THROW", "TO SUPPLY", "OPEN", "LAWYER", "LAWYER", "TO BURN", "ABRUPT", "RAISIN", "TO ACCEPT", "SUCCESS", "TO ACCLAIM", "TO AGREE", "AQUARIUM", "AGREEMENT", "INSIDE", "TO ADOPT", "TOWNHOUSE"]
+      },
+    {
+      cat: "8-Letter Words",
+      sel: false,
+      parent: "",
+      numOfItems: 0,
+      items: ["ABALORIO", "ABATATAR", "ABEJORRO", "ABERTURA", "ABNEGADO", "ABOLENGO", "ABOMINAR", "ABORIGEN", "ABRASIVO", "ABREVIAR", "ABSOLUTO", "ABSOLVER", "ABSORBER", "ABSTEMIO", "ABSTRUSO", "ABUNDOSO", "ACADEMIA", "ACAMPADA", "ACEITOSO", "ACERTIJO", "ACICALAR", "ACOGEDOR", "ACOSADOR", "ACUMULAR", "ADELANTE", "ADELANTE", "ADIVINAR", "ADJETIVO"],
+      def: ["GLASS BEADS", "TO EMBARRASS", "BUMBLEBEE", "OPENING", "UNSELFISH", "ANCESTRY", "TO ABHOR", "ABORIGINAL", "ABBRASIVE", "TO ABBREVIATE", "ABSOLUTE", "TO ACQUIT", "TO USE UP", "TEETOTALLER", "ABSTRUSE", "ABUNDANT", "ACADEMY", "CAMPING", "OILY", "RIDDLE", "TO POLISH", "COZY", "BULLY", "TO ACCUMULATE", "FORWARD", "COME IN!", "TO FORTELL", "ADJECTIVE"]
+      },      
     {
     cat: "test",
     sel: false,
@@ -58,18 +74,40 @@ const audios=[ {name: "default",
               }
              ]
 
-let helpText = `PALABRLE is a Spanish version of Wordle with an option of choosing the the length of your words. Select the Categories icon (2nd from right) and choose words from 5 to 12 characters long. If you choose multiple word lengths, each game will randomly choose between the lengths you have chosen. 
+let helpText = `PALABRLE is a Spanish version of Wordle with an option of choosing the length of your words. Select the Categories icon (2nd from right) and choose words from 5 to 12 letters long. If you choose multiple word lengths, each game will randomly choose between the lengths you have chosen. 
 <br>
-\u00A0\u00A0\u00A0I have not been able to find a free dictionary api to validate the guessed words, so any combination of letters will be accepted. Of course, your can limit yourself by entering only valid words or you can used the following lists to find valid words. -
+\u00A0\u00A0\u00A0I have not been able to find a free dictionary api to validate the guessed words, so any combination of letters will be accepted. Of course, your can limit yourself by entering only valid words. If Spanish is not your native tongue or as more letters are included and it gets more difficult to think up words, you can use the following lists to find valid words. -
 <br>
-\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/5-letter-spanish-words/">5-Letter Words</a>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/5-letter-spanish-words/" target="_blank">5-Letter Words</a>
 <br>
-\u00A0\u00A0\u00A0 <a href="https://www.wordnik.com/lists/6-letter-spanish-words">6-Letter Words</a>
+\u00A0\u00A0\u00A0 <a href="https://www.wordnik.com/lists/6-letter-spanish-words/" target="_blank">6-Letter Words</a>
 <br>
-\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/7-letter-spanish-words/"_blank">7-Letter Words</a>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/7-letter-spanish-words/" target="_blank">7-Letter Words</a>
 <br>
-\u00A0\u00A0\u00A0
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/8-letter-spanish-words/" target="_blank">8-Letter Words</a>
+<br>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/9-letter-spanish-words//" target="_blank">9-Letter Words</a>
+<br>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/10-letter-spanish-words/" target="_blank">10-Letter Words</a>
+<br>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/11-letter-spanish-words//" target="_blank">11-Letter Words</a>
+<br>
+\u00A0\u00A0\u00A0 <a href="https://howismyspanish.com/12-letter-spanish-words/" target="_blank">12-Letter Words</a>
+<br>
+<br>
+\u00A0\u00A0\u00A0You can customize the game to some degree by selecting the second icon from the left. In the "Choose Background" section, select a varying background by clicking on the top image with 6 smaller images inside. Each time you start a new game, the background will be one of those pics, selected at random. Or, choose one of the 6 larger images to set that as your background. A third option is to grab a direct link to any image on the web and to paste that link into the field provided.   
+<br>
+- You can change the background audio 
+<br>
+- Chameleon Mode varies the colors of the tiles that indicate inclusion and correct placement of the letters.
+<br>
+You can also toggle whether you want the words you enter to be valid words. As mentioned above, since no dictionary is available this option would check what you enter against the words defined within this site. Since there are currently only ${protoWordsArray[0].items.length} 5-letter words, this option would not make any sense and would not be viable until maybe 1000 or so words are included.
+<br>    
+<br>
+<br>
 `
+
+let viewHelpText = `Thanks for playing PALABRLE. Please view the Help "?" icon for useful tips and hints `
 
 let sound = true;
 let soundPlayer = "";
@@ -81,6 +119,7 @@ soundPlayer.volume = audios[randomAudioIdx].vol
 soundPlayer.currentTime = 1;
 const maxLettersNarrowScreen = 21;
 let chameleon = false;
+let validate = false;
 DANCE_ANIMATION_DURATION = 1500;
 MAX_HISTORY_ITEMS = 500;
 
@@ -133,6 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initPreferencesModal();
     initCategories();
     initHelpModal();
+    initViewHelpModal();
     initStatsModal();
     initCategoriesModal();
     initCategoriesModalBtn();
@@ -425,11 +465,23 @@ allElements.forEach((element) => {
       messageContainerEl.innerText = (`You entered ${currentWordArr.length} characters which is less than the ${numofLetters} needed`);
       return;
     }
+    console.log("randomarray in handleSubmitWord = "+ randomArray)
 
+    if (validate){
+      console.log("array length = " + wordsArray[randomArray].items.length)
+      for (i=0; i<wordsArray[randomArray].items.length; i++){
+        console.log(wordsArray[randomArray].items[i])
+      }
     
 
+      if (!wordsArray[randomArray].items.includes(guessedWord.toUpperCase())){
+        messageContainerEl.innerText = (`${guessedWord.toUpperCase()} was not found`);
+        return;
+      }
+    }
 
 
+    
 
 
 /*  logic to place in handleword
@@ -1085,8 +1137,44 @@ function initHelpModal() {
     helpEl.innerHTML = helpText
     const audio = new Audio ("./auds/stats.mp3");
     audio.play()
+    window.localStorage.setItem('viewedhelp', "viewed");
  //   helpEl.requestFullscreen();
   });
+
+  // When the user clicks on <span> (x), close the modal
+  span.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.addEventListener("click", function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+
+
+
+function initViewHelpModal() {
+  const modal = document.getElementById("view-help-modal");
+
+  // Get the <span> element that closes the modal
+  const span = document.getElementById("close-view-help");
+
+
+  // Open the modal if the user has not read the help
+    if (!window.localStorage.getItem("viewedhelp")){
+      modal.style.display = "block";
+      console.log("initViewHelpModal")
+      viewHelpEl = document.getElementById("view-help")
+      viewHelpEl.innerHTML = viewHelpText
+    } else {
+      return;
+    }
+  //  const audio = new Audio ("./auds/stats.mp3");
+  //  audio.play()
+
 
   // When the user clicks on <span> (x), close the modal
   span.addEventListener("click", function () {
@@ -1681,6 +1769,7 @@ for (i=0; i<6; i++){
 
       initBgAudios();
       initChameleon();
+      initValidate();
  
     }
 
@@ -1743,6 +1832,49 @@ function initChameleon() {
         }
           });
   }
+
+
+  function initValidate() {
+
+    const validateEl = document.getElementById("validate")
+  
+
+    // Check validate value in localstorage
+    validate = JSON.parse(window.localStorage.getItem('validate'));
+    
+
+
+    if (validate){
+        validateEl.style.color = 'black';
+        validateEl.style.fontWeight = 'bold';
+      } else {
+        validateEl.style.color = 'gray'; 
+        validateEl.style.fontWeight = 'normal';
+      }
+  
+      validateEl.addEventListener("click", ({ target }) => {
+        console.log("clicked validate")
+          validate = !validate;
+          if (validate) {
+            window.localStorage.setItem("validate", "true");
+          } else {
+            window.localStorage.setItem("validate", "false");
+          } 
+
+          if (validate){
+            validateEl.style.color = 'black';
+            validateEl.style.fontWeight = 'bold';
+            const audio = new Audio ("./auds/shortgood.mp3");
+            audio.play()
+          } else {
+            validateEl.style.color = 'gray'; 
+            validateEl.style.fontWeight = 'normal';
+            const audio = new Audio ("./auds/pop39222.mp3");
+            audio.play() 
+          }
+            });
+    }
+  
 
 
   // DANCE TILES FROM WEBDEV SIMPLIFIED
@@ -1834,6 +1966,8 @@ function loadLocalStorage(){
   } else {
     wordle = wordsArray[randomArray].items[randomWordle];
     definition = wordsArray[randomArray].def[randomWordle];
+    console.log("randomarray = "+ randomArray)
+    console.log("about to call calcLettersandGuesses")
 
     window.localStorage.setItem("wordle", wordle);
     window.localStorage.setItem("definition", definition);
@@ -1861,8 +1995,6 @@ function loadLocalStorage(){
   if (storedKeyboardContainer){
     document.getElementById("keyboard-container").innerHTML = storedKeyboardContainer;
   }
-
-
 
 
 }
