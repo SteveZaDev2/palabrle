@@ -710,3 +710,7 @@ hr{
     transform: translateY(0)
   }
 }
+
+textarea{
+  height: 90px;
+}
